@@ -1,0 +1,26 @@
+Категория	Марка	Номерной знак
+На каждый день	Geely Coolray Flagship	м324ст797
+На каждый день	Geely Coolray Flagship	е434ка797
+На каждый день	Geely Coolray Flagship	у831ое77
+На каждый день	Renault Duster	с452оо77
+На каждый день	Renault Duster	м674то97
+На каждый день	Renault Duster	е592оу777
+На каждый день	Renault Duster	о553вс797
+На каждый день	Volkswagen Polo 6	о444ту197
+На каждый день	Volkswagen Polo 6	с591ут97
+На каждый день	Volkswagen Polo 6	в667см97
+На каждый день	Volkswagen Polo 6	в569оо777
+На каждый день	Volkswagen Polo 6	с231оо797
+На каждый день	Volkswagen Polo 6	в583ее77
+Праздник	Mercedes E200	о454вс77
+Праздник	Mercedes E200	е982то97
+Праздник	Mercedes E200	е337ео777
+Праздник	Mercedes C180	о123оу777
+Праздник	Mercedes C180	о093оо97
+Праздник	Audi A6	е772ое777
+Груз и шаттл	Ford Transit	о438вм97
+Груз и шаттл	Ford Transit	о127ум97
+Груз и шаттл	Peugeot Expert	в673со77
+Молния	Электрокар Nissan Leaf	е654аа777
+Молния	Электрокар Nissan Leaf	а676ут797
+Жара	Jeep Sahara	т444от777
