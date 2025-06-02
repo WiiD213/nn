@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="585pt" height="490pt" viewBox="0.00 0.00 584.84 490.16">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 486.16)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-486.16 580.84,-486.16 580.84,4 -4,4"/>
+<!-- Автопарк -->
+<g id="node1" class="node">
+<title>Автопарк</title>
+<polygon fill="lightblue" stroke="black" points="0,-108.7 0,-257.5 221.81,-257.5 221.81,-108.7 0,-108.7"/>
+<text text-anchor="middle" x="39.12" y="-178.9" font-family="Arial" font-size="14.00">Автопарк</text>
+<polyline fill="none" stroke="black" points="78.23,-108.7 78.23,-257.5"/>
+<text text-anchor="middle" x="150.02" y="-240.9" font-family="Arial" font-size="14.00">ID автомобиля (PK)</text>
+<polyline fill="none" stroke="black" points="78.23,-232.7 221.81,-232.7"/>
+<text text-anchor="middle" x="150.02" y="-216.1" font-family="Arial" font-size="14.00">Марка</text>
+<polyline fill="none" stroke="black" points="78.23,-207.9 221.81,-207.9"/>
+<text text-anchor="middle" x="150.02" y="-191.3" font-family="Arial" font-size="14.00">Модель</text>
+<polyline fill="none" stroke="black" points="78.23,-183.1 221.81,-183.1"/>
+<text text-anchor="middle" x="150.02" y="-166.5" font-family="Arial" font-size="14.00">Год выпуска</text>
+<polyline fill="none" stroke="black" points="78.23,-158.3 221.81,-158.3"/>
+<text text-anchor="middle" x="150.02" y="-141.7" font-family="Arial" font-size="14.00">Гос. номер</text>
+<polyline fill="none" stroke="black" points="78.23,-133.5 221.81,-133.5"/>
+<text text-anchor="middle" x="150.02" y="-116.9" font-family="Arial" font-size="14.00">Статус</text>
+</g>
+<!-- Данные_по_пробегу -->
+<g id="node2" class="node">
+<title>Данные_по_пробегу</title>
+<polygon fill="lightblue" stroke="black" points="283.48,-342.1 283.48,-466.1 566.74,-466.1 566.74,-342.1 283.48,-342.1"/>
+<text text-anchor="middle" x="353.72" y="-399.9" font-family="Arial" font-size="14.00">Данные по пробегу</text>
+<polyline fill="none" stroke="black" points="423.95,-342.1 423.95,-466.1"/>
+<text text-anchor="middle" x="495.34" y="-449.5" font-family="Arial" font-size="14.00">ID записи (PK)</text>
+<polyline fill="none" stroke="black" points="423.95,-441.3 566.74,-441.3"/>
+<text text-anchor="middle" x="495.34" y="-424.7" font-family="Arial" font-size="14.00">ID автомобиля (FK)</text>
+<polyline fill="none" stroke="black" points="423.95,-416.5 566.74,-416.5"/>
+<text text-anchor="middle" x="495.34" y="-399.9" font-family="Arial" font-size="14.00">Дата</text>
+<polyline fill="none" stroke="black" points="423.95,-391.7 566.74,-391.7"/>
+<text text-anchor="middle" x="495.34" y="-375.1" font-family="Arial" font-size="14.00">Пробег</text>
+<polyline fill="none" stroke="black" points="423.95,-366.9 566.74,-366.9"/>
+<text text-anchor="middle" x="495.34" y="-350.3" font-family="Arial" font-size="14.00">Тип обслуживания</text>
+</g>
+<!-- Автопарк&#45;&gt;Данные_по_пробегу -->
+<g id="edge1" class="edge">
+<title>Автопарк:id-&gt;Данные_по_пробегу:car_id</title>
+<path fill="none" stroke="black" d="M221.81,-245.1C225,-245.1 280.94,-464.67 283.48,-466.6 308.54,-485.64 544.19,-488.56 566.74,-466.6 570.49,-462.95 573.22,-449.13 572.69,-439.29"/>
+<polygon fill="black" stroke="black" points="575.85,-437.79 568.39,-430.27 569.53,-440.8 575.85,-437.79"/>
+<text text-anchor="middle" x="250.7" y="-387.43" font-family="Arial" font-size="14.00">1:N</text>
+</g>
+<!-- Отчет_по_автопарку -->
+<g id="node3" class="node">
+<title>Отчет_по_автопарку</title>
+<polygon fill="lightblue" stroke="black" points="279.59,-159.1 279.59,-283.1 570.63,-283.1 570.63,-159.1 279.59,-159.1"/>
+<text text-anchor="middle" x="353.72" y="-216.9" font-family="Arial" font-size="14.00">Отчет по автопарку</text>
+<polyline fill="none" stroke="black" points="427.84,-159.1 427.84,-283.1"/>
+<text text-anchor="middle" x="499.23" y="-266.5" font-family="Arial" font-size="14.00">ID отчета (PK)</text>
+<polyline fill="none" stroke="black" points="427.84,-258.3 570.63,-258.3"/>
+<text text-anchor="middle" x="499.23" y="-241.7" font-family="Arial" font-size="14.00">ID автомобиля (FK)</text>
+<polyline fill="none" stroke="black" points="427.84,-233.5 570.63,-233.5"/>
+<text text-anchor="middle" x="499.23" y="-216.9" font-family="Arial" font-size="14.00">Дата отчета</text>
+<polyline fill="none" stroke="black" points="427.84,-208.7 570.63,-208.7"/>
+<text text-anchor="middle" x="499.23" y="-192.1" font-family="Arial" font-size="14.00">Статус ТО</text>
+<polyline fill="none" stroke="black" points="427.84,-183.9 570.63,-183.9"/>
+<text text-anchor="middle" x="499.23" y="-167.3" font-family="Arial" font-size="14.00">Расход топлива</text>
+</g>
+<!-- Автопарк&#45;&gt;Отчет_по_автопарку -->
+<g id="edge2" class="edge">
+<title>Автопарк:id-&gt;Отчет_по_автопарку:car_id</title>
+<path fill="none" stroke="black" d="M221.81,-245.1C252.67,-245.1 250.05,-274.66 279.59,-283.6 341.49,-302.33 524.29,-328.72 570.63,-283.6 574.38,-279.95 577.11,-266.13 576.58,-256.29"/>
+<polygon fill="black" stroke="black" points="579.74,-254.79 572.28,-247.27 573.42,-257.8 579.74,-254.79"/>
+<text text-anchor="middle" x="250.7" y="-277.2" font-family="Arial" font-size="14.00">1:N</text>
+</g>
+<!-- Аренда -->
+<g id="node4" class="node">
+<title>Аренда</title>
+<polygon fill="lightblue" stroke="black" points="309.54,-0.5 309.54,-99.7 540.68,-99.7 540.68,-0.5 309.54,-0.5"/>
+<text text-anchor="middle" x="340.88" y="-45.9" font-family="Arial" font-size="14.00">Аренда</text>
+<polyline fill="none" stroke="black" points="372.21,-0.5 372.21,-99.7"/>
+<text text-anchor="middle" x="456.45" y="-83.1" font-family="Arial" font-size="14.00">ID аренды (PK)</text>
+<polyline fill="none" stroke="black" points="372.21,-74.9 540.68,-74.9"/>
+<text text-anchor="middle" x="456.45" y="-58.3" font-family="Arial" font-size="14.00">ID автомобиля (FK)</text>
+<polyline fill="none" stroke="black" points="372.21,-50.1 540.68,-50.1"/>
+<text text-anchor="middle" x="456.45" y="-33.5" font-family="Arial" font-size="14.00">Время начала TEXT</text>
+<polyline fill="none" stroke="black" points="372.21,-25.3 540.68,-25.3"/>
+<text text-anchor="middle" x="456.45" y="-8.7" font-family="Arial" font-size="14.00">Время окончания TEXT</text>
+</g>
+<!-- Автопарк&#45;&gt;Аренда -->
+<g id="edge3" class="edge">
+<title>Автопарк:id-&gt;Аренда:car_id</title>
+<path fill="none" stroke="black" d="M221.81,-245.1C236.11,-245.1 267.87,-138.29 279.59,-130.1 327.47,-96.66 501.23,-143.26 540.68,-100.2 544.22,-96.34 547,-82.58 546.54,-72.8"/>
+<polygon fill="black" stroke="black" points="549.76,-71.42 542.33,-63.87 543.43,-74.41 549.76,-71.42"/>
+<text text-anchor="middle" x="250.7" y="-221.99" font-family="Arial" font-size="14.00">1:N</text>
+</g>
+</g>
+</svg>
